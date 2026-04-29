@@ -406,7 +406,7 @@ body::after{content:'';position:fixed;inset:0;z-index:8000;pointer-events:none;o
   .stats-grid{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:1024px){
-  nav{padding:18px 28px;padding-top:max(18px,env(safe-area-inset-top))}
+  nav{padding:18px 28px;padding-top:max(18px,env(safe-area-inset-top));background:rgba(7,7,9,.96);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--gborder)}
   nav.scrolled{padding:12px 28px;padding-top:max(12px,env(safe-area-inset-top))}
   .nav-links{display:none}
   .hamburger{display:flex}
